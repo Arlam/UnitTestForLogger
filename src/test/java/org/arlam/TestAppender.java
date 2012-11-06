@@ -21,6 +21,7 @@ class TestAppender extends AppenderSkeleton {
 
 	@Override
 	public void close() {
+		// Not Implemented
 	}
 
 	public List<LoggingEvent> getLog() {
